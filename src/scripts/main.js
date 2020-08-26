@@ -21,6 +21,13 @@ import{ addPlant } from './field.js'
 const plantAdded = addPlant();
 console.log(plantAdded);
 
+import{ createPlan } from './plan.js'
+const plant = createPlan();
+console.log(plant);
+
+import {plantSeeds} from './tractor.js'
+const test = plantSeeds();
+console.log(test);
 
 //import { createAsparagus } from "./seeds/asparagus.js"
 //import { addPlant, usePlants } from './field.js';

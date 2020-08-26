@@ -7,7 +7,7 @@ import{createSunflower} from './seeds/sunflower.js'
 import{createWheat} from './seeds/wheat.js'
 
 //creating an empty array variable according to the Tilling the Field instructions
-var usePlants = [];
+let usePlants = [];
 const asparagusSeed = createAsparagus();
 const cornSeed = createCorn();
 const potatoSeed = createPotato();
