@@ -1,4 +1,3 @@
-//this page of code is already provided as starter code
 const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
 export const createPlan = () => {
@@ -11,8 +10,12 @@ export const createPlan = () => {
         }
         plan.push(row)
     }
-  return plan
+
+    return plan
 }
+
+
+
 
 /*
     This is a generator function used to randomly
@@ -26,3 +29,4 @@ const crop = function* () {
         yield types[typeIdx]
     }
 }()
+
